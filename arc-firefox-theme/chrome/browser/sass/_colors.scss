@@ -3,9 +3,9 @@
 
 
 $base_color: if($variant =='light', #fdf6e3, #073642);
-$text_color: if($variant == 'light', #5c616c, #657b83);
+$text_color: if($variant == 'light', #5c616c, #93a1a1);
 $bg_color: if($variant =='light', #F5F6F7, #002b36);
-$fg_color: if($variant =='light', #5c616c, #657b83);
+$fg_color: if($variant =='light', #5c616c, #93a1a1);
 
 $selected_fg_color: #fdf6e3;
 $selected_bg_color: #268bd2;

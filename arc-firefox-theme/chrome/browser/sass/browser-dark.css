@@ -137,11 +137,11 @@ toolbarbutton.bookmark-item {
   border: 1px solid transparent;
   border-radius: 2px;
   background: none;
-  color: #657b83; }
+  color: #93a1a1; }
 
 toolbarbutton.bookmark-item:not([disabled=true]):hover {
   -moz-appearance: none;
-  color: #657b83;
+  color: #93a1a1;
   background-color: #0a5062;
   border: 1px solid #001317; }
 
@@ -356,7 +356,7 @@ menuitem.bookmark-item {
 #TabsToolbar .toolbarbutton-1:not([disabled=true]):hover > .toolbarbutton-badge-stack,
 #TabsToolbar .toolbarbutton-1:not([disabled=true]):hover > .toolbarbutton-icon {
   background-color: none;
-  color: rgba(89, 128, 143, 0.8);
+  color: rgba(137, 171, 171, 0.8);
   border-color: rgba(0, 0, 0, 0.37);
   background-color: rgba(0, 132, 166, 0.37);
   background-clip: padding-box; }
@@ -417,7 +417,7 @@ menuitem.bookmark-item {
 
 #TabsToolbar .toolbaritem-combined-buttons:not(:hover) > separator,
 #TabsToolbar .toolbarbutton-1:not(:hover):not(:active):not([open]) > .toolbarbutton-menubutton-dropmarker::before {
-  background: rgba(89, 128, 143, 0.15); }
+  background: rgba(137, 171, 171, 0.15); }
 
 :-moz-any(#TabsToolbar, #nav-bar) .toolbarbutton-1 > .toolbarbutton-menubutton-dropmarker {
   margin-inline-start: -4px; }
@@ -942,13 +942,13 @@ toolbarpaletteitem[place="palette"] > #zoom-controls > #zoom-in-button {
   border-radius: 3px;
   margin: 0 3px;
   min-height: 28px;
-  color: #657b83;
+  color: #93a1a1;
   background-color: #073642;
   border: 1px solid #001317; }
 
 #urlbar[focused],
 .searchbar-textbox[focused] {
-  color: #657b83;
+  color: #93a1a1;
   background-color: #073642;
   border: 1px solid #001317;
   box-shadow: inset 0 1px #268bd2, inset 0 -1px #268bd2, inset 1px 0 #268bd2, inset -1px 0 #268bd2; }
@@ -2009,14 +2009,14 @@ html|span.ac-emphasize-text-url {
 /* Findbar */
 .browserContainer > findbar {
   background-color: #002b36;
-  color: #657b83;
+  color: #93a1a1;
   border-top: 1px solid;
   -moz-border-top-colors: #001317;
   text-shadow: none; }
 
 .browserContainer > findbar .findbar-textbox {
   -moz-appearance: none;
-  color: #657b83;
+  color: #93a1a1;
   border: 1px solid #001317;
   background-color: #073642;
   box-shadow: none;
@@ -2057,7 +2057,7 @@ html|span.ac-emphasize-text-url {
 
 .browserContainer > findbar .findbar-find-previous:focus,
 .browserContainer > findbar .findbar-find-next:focus {
-  outline: 1px dashed rgba(101, 123, 131, 0.3);
+  outline: 1px dashed rgba(147, 161, 161, 0.3);
   outline-offset: -3px;
   box-shadow: none; }
 
@@ -2102,7 +2102,7 @@ html|span.ac-emphasize-text-url {
 .tabbrowser-tab[selected="true"],
 .tabbrowser-tab[selected="true"]:hover,
 .tabbrowser-tab:not([selected="true"]):hover {
-  color: #657b83; }
+  color: #93a1a1; }
 
 /* The selected tab should appear above adjacent tabs, .tabs-newtab-button and the highlight of #nav-bar */
 .tabbrowser-tab[visuallyselected=true] {
@@ -2306,9 +2306,9 @@ html|span.ac-emphasize-text-url {
   color: inherit; }
 
 .tabbrowser-tab:not([selected="true"]) {
-  color: rgba(89, 128, 143, 0.6); }
+  color: rgba(137, 171, 171, 0.6); }
   .tabbrowser-tab:not([selected="true"]):hover {
-    color: rgba(89, 128, 143, 0.8); }
+    color: rgba(137, 171, 171, 0.8); }
 
 /* Selected tab */
 /*
@@ -2459,7 +2459,7 @@ lwtHeader;*/
 
 #TabsToolbar:not(:-moz-lwtheme) {
   -moz-appearance: none;
-  color: rgba(89, 128, 143, 0.8);
+  color: rgba(137, 171, 171, 0.8);
   background: #002b36; }
 
 #toolbar-menubar:not([autohide="true"]):not(:-moz-lwtheme):-moz-system-metric(menubar-drag),
