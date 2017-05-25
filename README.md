@@ -1,22 +1,10 @@
-# Arc Firefox Theme
-Offical [Arc](https://github.com/horst3180/arc-theme) Firefox theme.
-
-##### Arc Firefox
-![alt tag](http://i.imgur.com/UjJabE3.png)
-
-##### Arc Darker Firefox
-![alt tag](http://i.imgur.com/5fMURDp.png)
-
-##### Arc Dark Firefox
-![alt tag](http://i.imgur.com/5HuYVUl.png)
+# SolArc Firefox Theme
+Based on the awesome [Arc](https://github.com/horst3180/arc-firefox-theme) Firefox theme.
 
 ## Requirements
 This theme is compatible with Firefox 40+ and Firefox 38 ESR
 
-**Note**: This theme is meant to be used in conjunction with the [Arc GTK theme](https://github.com/horst3180/Arc-theme), don't use it with other GTK themes or it will look broken.
-
-## Installation
-The theme is available as a collection on [addons.mozilla.org](https://addons.mozilla.org/en/firefox/collections/horst3180/a/).
+**Note**: This theme is meant to be used in conjunction with the [SolArc GTK theme](https://github.com/apheleia/solarc-theme), don't use it with other GTK themes or it will look broken.
 
 ### Manual building and installation
 These instructions are for testers and package maintainers. They also allow to install the theme globally for all users.
